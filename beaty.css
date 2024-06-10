@@ -1,0 +1,60 @@
+p{
+    font-family: Algerian;
+ }
+
+img{
+    width: 150px;
+    height: 100px;
+    padding-left: 40px;
+}
+body{
+    background-image: url("images/img_6.png");
+}
+div{
+    width: 1200px;
+
+}
+
+.c-item{
+    height: 400px;
+
+}
+
+.c-img{
+height: 100%;
+    object-fit: cover;
+}
+
+form{
+    background-color: #664d03;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px greenyellow  ;
+
+}
+
+legend{
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-weight: bolder;
+    color: wheat;
+}
+
+input[type=text],input[type=number]{
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 40px;
+
+}
+button{
+    background-color:darkgoldenrod;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: saddlebrown;
+}

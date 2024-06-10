@@ -1,0 +1,174 @@
+body {
+background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+
+}
+h2{
+    color:#a7b9b1;
+    padding-left: 50px;
+    font-size: 35px;
+    font-family: "Maiandra GD";
+    animation: animate 8s infinite;
+}
+@keyframes animate{
+    0%{
+        font-size: 20px;
+        opacity: 1;
+        animation-duration: 10s;
+    }
+    25%{
+        font-size: 20px;
+        opacity: 0;
+    }
+    50%{
+        font-size: 20px;
+        opacity:2;
+    }
+    75%{
+        font-size: 20px;
+        opacity: 0;
+        content: "proudly looking forward";
+    }
+    90%{
+        font-size: 20px;
+        opacity: 2;
+    }
+    100%{
+        font-size: 20px;
+        opacity: 1;
+        content: "proudly looking forward";
+    }
+
+
+
+}
+h1{
+    margin-top: 150px;
+    margin-left: 120px;
+    padding-left: 80px;
+    -webkit-text-stroke: 4px #0d6efd;
+    font-size: 25px;
+    text-transform: uppercase;
+
+
+}
+
+.col-6{
+    height: 800px;
+    animation-name:FRONT;
+    animation-duration:5s;
+
+}
+
+.cygan5{
+    width: 500px;
+    height: 800px;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    margin-right: 700px;
+    
+}
+
+p{
+    padding-left: 200px;
+}
+
+.animated-text{
+    font-size: 25px;
+    font-weight: bold;
+    min-width: 200px;
+    margin-left: 90px;
+    padding-left: 80px;
+}
+.animated-text  span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "HTML";
+    color: #664d03;
+    animation: words 4s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color: #58151c;
+    border-left: 2px solid #997404;
+    right:-8px;
+    animation: cursor .2s infinite;
+}
+@keyframes cursor {
+    to{
+        border-left: 2px solid #842029;
+    }
+}
+
+@keyframes words {
+    0%, 25%{
+        content: "HTML";
+    }
+     26%, 50%{
+        content: "CSS";
+    }
+    51%, 75%{
+        content: "BOOTSTRAP";
+    }
+    76%, 100%{
+        content: "ETHICAL SKILLS";
+    }
+}
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.col-9{
+    padding-left: 800px;
+
+}
+
+
